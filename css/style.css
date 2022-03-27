@@ -1,0 +1,95 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* 
+setting max-width to ensure the nav-brand 
+doesn't stick to the border when on large display
+,since .container-fluid by default span the entire 
+width of the viewport
+*/
+.container-fluid {
+  max-width: 1200px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+#above-the-fold {
+  background-image: url("../img/cat.gif");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-size: cover; */
+  background-attachment: fixed;
+  /* padding-bottom: 700px; */
+  padding-bottom: 750px;
+}
+
+#separator-1 {
+  /* color for navbar-dark : #212529 */
+  background-color: #212529;
+  padding: 30px 0;
+}
+/* 
+#separator-1 .content {
+  padding: 10px 30px;
+  height: 100%;
+} */
+
+.widget-title hr {
+  height: 1px;
+  background-color: grey;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#covid-19-content .widget-title {
+  text-align: center;
+  /* padding: 50px 120px 120px 120px; */
+  padding: 5% 10% 5% 10%;
+}
+
+.header-spacer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text-white {
+  font-size: small;
+}
+
+#separator-footer {
+  padding: 5px 0px;
+  background-color: #212529;
+  text-decoration-color: white;
+}
+
+#header-title {
+  font-weight: bold;
+  padding-top: 150px;
+  font-size: 60px;
+  /* color: white; */
+}
+
+#header-content {
+  text-align: center;
+}
+#content-title {
+  color: white;
+}
+
+
+span {
+  font-size: 20px;
+}
+
+p {
+  color: aliceblue;
+  text-align: justify;
+  text-justify: inter-word;
+}
