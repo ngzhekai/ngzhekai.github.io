@@ -1,162 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - ZheKai</title>
-    <link rel="shortcut icon" type="image/png" href="img/miku-nav-brand.png" />
 
-    <!-- Bootstrap 5 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ホーム Home - ZheKai</title>
+  <link rel="shortcut icon" type="image/png" href="img/miku-nav-brand.png" />
 
-    <!-- Fonts  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div id="above-the-fold">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <!-- container-fluid applies to all size -->
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <!-- <img src="img/miku-nav-brand.png" alt="miku" width="50"   /> -->
-            Zhe Kai
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <!-- icon for navbar drop down  -->
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
 
-          <div
-            class="collapse navbar-collapse flex-row-reverse"
-            id="navbarSupportedContent"
-          >
-            <!-- mb-2 is to set the margin bottom for collapsible navbar  -->
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li
-                class="nav-item active"
-                data-toggle="collapse"
-                data-target=".navbar-collapse.show"
-              >
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li
-                class="nav-item"
-                data-toggle="collapse"
-                data-target=".navbar-collapse.show"
-              >
-                <a class="nav-link" href="#about-me">About Me</a>
-              </li>
-              <li
-                class="nav-item"
-                data-toggle="collapse"
-                data-target=".navbar-collapse.show"
-              >
-                <a class="nav-link" href="covid19Live.html">Covid-19 Live</a>
-              </li>
-            </ul>
-            <!-- End of .navbar-nav  -->
-          </div>
-          <!-- End of .collapse .navbar-collapse  -->
-        </div>
-        <!-- End of .container-fluid  -->
-      </nav>
-      <!-- End of .navbar  -->
+  <!-- Fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
+</head>
 
+<body>
+  <div id="above-the-fold">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <!-- container-fluid applies to all size -->
       <div class="container-fluid">
-        <div class="position-absolute top-50 start-50 translate-middle">
-          <h1 id="header-title">
-            Ng Zhe Kai
-            <hr />
-          </h1>
-          <div id="header-content">Linux Enthusiast &dot; MMU Student</div>
-        </div>
-      </div>
-    </div>
-    <!-- end of #above-the-flow -->
+        <a class="navbar-brand" href="index.html">
+          <!-- <img src="img/miku-nav-brand.png" alt="miku" width="50"   /> -->
+          Zhe Kai
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- icon for navbar drop down  -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div id="separator-1">
-      <div id="about-me">
-        <div class="container-fluid">
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+          <!-- mb-2 is to set the margin bottom for collapsible navbar  -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link active" aria-current="page" href="index.html">Home ホームページ</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="#about-me">About Me 自己</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="#music-section">Music 音楽</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="covid19Live.html">Covid-19 Live</a>
+            </li>
+          </ul>
+          <!-- End of .navbar-nav  -->
+        </div>
+        <!-- End of .collapse .navbar-collapse  -->
+      </div>
+      <!-- End of .container-fluid  -->
+    </nav>
+    <!-- End of .navbar  -->
+
+    <div class="container-fluid">
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <h1 id="header-title">
+          Ng Zhe Kai
+          <hr />
+        </h1>
+        <!-- End of #header-title  -->
+        <div id="header-content">Linux Enthusiast &dot; MMU Student</div>
+      </div>
+      <!-- End of .position-absolute .top-50 .start-50 .translate-middle  -->
+    </div>
+    <!-- End of .container-fluid  -->
+  </div>
+  <!-- end of #above-the-flow -->
+
+  <div id="separator-1">
+    <div id="about-me">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-4">
+              <h2 id="content-title">About Me</h2>
+              <p>
+                こんにちは！Ng Zhe Kaiと申します、 Gilbert
+                って呼んでもいいよ〜
+              </p>
+              <p>Hey there! I'm Zhe Kai, aka Gilbert.</p>
+              <p>
+                I'm currently a student in Multimedia University, who is
+                pursuing an undergraduate Bachelor's Degree in Data
+                Communication & Networking. However, deep down in my heart I
+                have a passion for the Linux system (due to less bloat...),
+                therefore I moved to Linux.
+              </p>
+              <p>
+                During my freetime, I will listen to music, practice my
+                Japanese, and maybe editing my dotfiles. I sometimes do get
+                motivated to learn new skills (i.e. programming languages,
+                video-editing). Speaking of my hobby, I really do loves to
+                execute the command
+                <code>sudo pacman -Syu</code>, I would have say that I execute
+                this command very frequently.
+              </p>
+              <p>
+                In terms of my goal, I always wanted to build an website for
+                myself. However, due to my limited knowledge in the field of
+                Web Development. I enroll myself into a Web Development course
+                offered by Coursera. I am so gladful I managed to build my
+                very first own website.
+              </p>
+            </div>
+            <!-- End of div .p-4  -->
+          </div>
+          <!-- End of col-lg-6 .order-lg-1  -->
+          <div class="col-lg-6 d-flex">
+            <img class="img-fluid miku-bg" src="img/miku-nav-brand.png" alt="test" />
+          </div>
+          <!-- End of .col-lg-6 .d-flex  -->
+        </div>
+        <!-- End of .row .align-items-center  -->
+
+        <div id="music-section">
           <div class="row align-items-center">
-            <div class="col-lg-6 order-lg-1">
+            <div class="col-md-12 col-lg-7 col-xl-7 d-flex order-lg-1">
               <div class="p-4">
-                <h2 id="content-title">About Me</h2>
-                <p>
-                  こんにちは！Ng Zhe Kaiと申します、 Gilbert
-                  って呼んでもいいよ〜
-                </p>
-                <p>Hey there! I'm Zhe Kai, aka Gilbert.</p>
-                <p>
-                  I'm currently a student in Multimedia University, who is
-                  pursuing an undergraduate Bachelor's Degree in Data
-                  Communication & Networking. However, deep down in my heart I
-                  have a passion for the Linux system (due to less bloat...),
-                  therefore I moved to Linux.
-                </p>
-                <p>
-                  During my freetime, I will listen to music, practice my
-                  Japanese, and maybe editing my dotfiles. I sometimes do get
-                  motivated to learn new skills (i.e. programming languages,
-                  video-editing). Speaking of my hobby, I really do loves to
-                  execute the command
-                  <code>sudo pacman -Syu</code>, I would have say that I execute
-                  this command very frequently.
-                </p>
-                <p>
-                  In terms of my goal, I always wanted to build an website for
-                  myself. However, due to my limited knowledge in the field of
-                  Web Development. I enroll myself into a Web Development course
-                  offered by Coursera. I am so gladful I managed to build my
-                  very first own website.
+                <h2 id="content-title">Music Corner 音楽コーナー</h2>
+                <p>METEOR は、私が初めてミクちゃんを好きになった曲ですよ！<br>
+                  ミクの曲が好きな人が、ぜひこのプレイリストをご覧してください⇒<a
+                    href="https://open.spotify.com/playlist/5SVv10hwIb8hTmqQmiBkg1?si=9b40e82d5be045b6">リンク</a></p>
+                <p>METEOR is the song that makes me fell in love with Miku. <br> If you also likes Miku's music, you can
+                  probably check out this playlist ⇒ <a
+                    href="https://open.spotify.com/playlist/5SVv10hwIb8hTmqQmiBkg1?si=9b40e82d5be045b6">Link</a>
                 </p>
               </div>
-              <!-- End of div .p-5  -->
+              <!-- End .p-4  -->
             </div>
-
-            <div class="col-lg-6">
-              <img class="img-fluid" src="img/miku-nav-brand.png" alt="test" />
+            <!-- End of .col-md-12 .col-lg-7 .d-flex .order-lg-1  -->
+            <div class="col-md-12 col-lg-5 col-xl-5  order-lg-2 ">
+              <div class="d-none d-lg-block d-xl-block d-xxl-block">
+                <div class="d-flex">
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/5wHdoGVofJZUGc6Z6t5wZ5?utm_source=generator" width="100%"
+                    height="80" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                </div>
+                <!-- End of .d-flex  -->
+              </div>
+              <!-- End of .d-none .d-lg-block .d-xl-block .d-xxl-block  -->
             </div>
+            <!-- End of .col-md-12 .col-lg-5 .col-xl-5 .order-lg-2  -->
+            <div class="col-lg-5 col-xl-5 order-lg-2">
+              <div class="d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+                <div class="d-flex">
+                  <iframe style="border-radius:15px"
+                    src="https://open.spotify.com/embed/track/5wHdoGVofJZUGc6Z6t5wZ5?utm_source=generator" width="100%"
+                    height="380" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                </div>
+                <!-- End of .d-flex  -->
+              </div>
+              <!-- End of .d-block d-sm-block .d-md-block .d-lg-none .d-xl-none .d-xxl-none  -->
+            </div>
+            <!-- End of .col-lg-5 .col-xl-5 .order-lg-2  -->
           </div>
+          <!-- End of .row .align-items-center  -->
         </div>
-        <!-- End of .container-fluid  -->
+        <!-- End of #music-section  -->
       </div>
-      <!-- End of #about-me  -->
+      <!-- End of .container-fluid  -->
     </div>
+    <!-- End of #about-me  -->
 
-    <!-- footer  -->
-    <div class="container" id="separator-footer">
-      <footer class="d-flex flex-wrap justify-content-center">
-        <span class="text-white">Zhe Kai &copy; 2022 All rights reserved.</span>
-      </footer>
-      <!-- End of .container  -->
-    </div>
+  </div>
+  <!-- End of .separator-1  -->
+  <!-- footer  -->
+  <div class="container" id="separator-footer">
+    <footer class="d-flex flex-wrap justify-content-center">
+      <span class="text-white">Zhe Kai &copy; 2022 All rights reserved.</span>
+    </footer>
+  </div>
+  <!-- End of .container  -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
